@@ -14,17 +14,23 @@ Code was previously written to process this information, but needs revision to a
 - The previously written code will be refactored to improve performance.
 
 ## Results
-Include original:
-Image with 2017 data
-image with 2018
+Original run time:
 
-Include refactored:
-Image with 2017 data
-image with 2018
+![VBA_Challenge_2017_Original](https://user-images.githubusercontent.com/91762315/140182676-88700cfd-9f38-451f-ad21-d6f6696c8ca6.png)
+![VBA_Challenge_2018_Original](https://user-images.githubusercontent.com/91762315/140182679-ea3fe67b-2f7d-4d5d-88b8-e2331babdf26.png)
+
+
+Run time after refactoring:
+
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/91762315/140182674-59ad8893-64cb-4e6e-8d54-7078254e79ad.png)
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/91762315/140182678-122c8e1b-23cc-4704-93f8-22b60f8f990f.png)
+
 
 Refactoring this code allowed for a roughly 80% decrease in run time.
 
-Source Data: VBA Challenge
+
+Source Data: [VBA_Challenge.xlsx](https://github.com/HopkinsKV/stock-analysis/blob/main/VBA_Challenge.xlsm)
+
 Note: the above link contains both the original and refactored code.
 
 
