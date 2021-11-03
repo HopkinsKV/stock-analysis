@@ -13,9 +13,6 @@ Code was previously written to process this information, but needs revision to a
 - Additionally, the macro will include conditional formatting to easily identify stock performance.
 - The previously written code will be refactored to improve performance.
 
-testing
-
-
 ## Results
 Include original:
 Image with 2017 data
@@ -25,10 +22,10 @@ Include refactored:
 Image with 2017 data
 image with 2018
 
-Refactoring this code allowed for a XXX% decrease in run time.
+Refactoring this code allowed for a roughly 80% decrease in run time.
 
-Source Data: Link to excel files
-
+Source Data: VBA Challenge
+Note: the above link contains both the original and refactored code.
 
 
 ## Summary
@@ -41,4 +38,6 @@ Refactoring this code provided a drastic decrease in run time. This will allow f
 ### Cons
 The disadvantage of refactoring code is the increased debugging process.
 
-This script in particular still requires manually defining each item in an array, which is not scalable. If new companies need review, they must be added to the array by hand. The references to this array will also need to have their XXXX updated.
+This script in particular still requires manually defining each item in an array, which is not scalable. If new companies need review, they must be added to the array by hand. The references to this array will also need to have the for loops updated to match the new array amount.
+
+Lastly, the refactored code may use more memory while it increases efficiency.
